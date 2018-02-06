@@ -1,0 +1,13 @@
+id = "enanibus"
+
+[email]
+username = "enanibus"
+host = "gmail.com"
+
+[name]
+display = "Jacobo Enríquez"
+
+[social]
+email = ""
+facebook  = ""
+twitter = "enanibus"

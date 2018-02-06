@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/enanibus/enanibus.github.io
+[submodule "themes/minimo"]
+	path = themes/minimo
+	url = https://github.com/MunifTanjim/minimo

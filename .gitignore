@@ -1,0 +1,8 @@
+# Hugo default output directory
+public
+
+# Other files and folders not wanted
+.DS_Store
+
+# Encryption file
+.travis_key.enc
