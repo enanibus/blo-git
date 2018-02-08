@@ -43,8 +43,11 @@ hideEntryNavigation = ["page"] # boolean / array of sections
 recentPostsLength = 4
 hideSocialMenu = false
 showReadingTime = true
-noTermCloudShuffle = false
-homepageSections = ["recent_posts"]
+taxonomyCloudShuffle = true
+
+[params.sidebar]
+enable = true
+sticky = true
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -63,6 +66,7 @@ codepen = ""
 email = "enanibus@gmail.com"
 facebook = ""
 github = "enanibus"
+gitlab = "enanibus"
 instagram = ""
 linkedin = "jacoboenriquez/?locale=en_US"
 twitter = "enanibus"
@@ -70,7 +74,7 @@ telegram = ""
 google_scholar = ""
 
 [params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram","google_scholar"]
+platforms = ["email","github","linkedin","facebook","twitter","instagram","codepen","gitlab","telegram","google_scholar"]
 
 [taxonomies]
 author = "authors"
@@ -80,11 +84,11 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-#[[menu.main]]
-#name = "Home"
-#weight = -10
-#identifier = "repository"
-#url = "https://enanibus.github.io"
+[[menu.main]]
+name = "Repo"
+weight = -10
+identifier = "repository"
+url = "https://github.com/enanibus/blo-git"
 
 [blackfriday]
 hrefTargetBlank = true
